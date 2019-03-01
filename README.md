@@ -10,7 +10,7 @@ Bax is a POSIX shell execution wrapper for the <a href="https://fishshell.com" t
 Install with [Fundle](https://github.com/danhper/fundle):
 
 ```
-fundle plugin 'hunter-richardson/fish-getops'
+fundle plugin 'hunter-richardson/fish-bax'
 ```
 
 ### System Requirements
