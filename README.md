@@ -7,27 +7,11 @@ Bax is a POSIX shell execution wrapper for the <a href="https://fishshell.com" t
 
 ## Installation
 
-Install with [Fisher](https://github.com/jorgebucaran/fisher) (recommended):
+Install with [Fundle](https://github.com/danhper/fundle):
 
 ```
-fisher add jorgebucaran/fish-bax
+fundle plugin 'hunter-richardson/fish-getops'
 ```
-
-<details>
-<summary>Not using a package manager?</summary>
-
----
-
-Copy [`bax.fish`](bax.fish) to any directory on your function path.
-
-```fish
-set -q XDG_CONFIG_HOME; or set XDG_CONFIG_HOME ~/.config
-curl https://git.io/bax.fish --create-dirs -sLo $XDG_CONFIG_HOME/fish/functions/bax.fish
-```
-
-To uninstall, remove the file.
-
-</details>
 
 ### System Requirements
 
